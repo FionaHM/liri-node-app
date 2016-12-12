@@ -1,0 +1,25 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "language interpretation and recognition interface - assignment 8",
+  "main": "liri.js",
+  "scripts": {
+    "test": "liri.js my-tweets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FionaHM/liri-node-app.git"
+  },
+  "author": "fiona hegarty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FionaHM/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/FionaHM/liri-node-app#readme",
+  "dependencies": {
+    "inquirer": "^2.0.0",
+    "request": "^2.79.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  }
+}
