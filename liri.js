@@ -27,20 +27,43 @@ function twitterHandler(params){
 function spotifyHandler(song){
    return new Promise(function(resolve, reject) {	
 	// get path, params and callback
+		if (song === ""){
+			song = "The Sign";
+		}
 		var exactMatch = '"'+song+'"';
-		console.log(exactMatch);
-	
 		spotify.search({ type: 'track',  query: exactMatch}, function(err, data) {
 			if ( !err ) {
-				resolve(data);
+				// make sure there was at least one song in the results returned
+				if (data.tracks.items.length !== 0) {
+					resolve(data);
+				} else {
+					// if no songs found - log an error, could be spelling as looks for exact match
+					reject(err);
+				}			
 			} else{
+				// handle any connection or retrieval error
 				reject(err);
 			}
 		})
 	})
 }
 
- 
+function requestHandler(movie){
+	return new Promise(function(resolve, reject) {
+		var request = require('request');
+		if (movie === ""){
+			movie = "Mr. Nobody";
+		}
+		request('https://www.omdbapi.com/?t=' + movie + '&y=&plot=short&r=json', function (error, response, body) {
+			if ((!error && response.statusCode == 200)) {
+				// console.log(body) // Show the HTML for the Google homepage.
+				resolve(JSON.parse(body));
+			} else {
+				reject(error);
+			}
+		})
+	})
+}
 
 
 function userInputs(){
@@ -70,12 +93,9 @@ function userInputs(){
 		}
 
 	]).then(function (answers) {
-	
-		console.log( answers);
 		// return action, values;
 		switch (answers.predefinedOptions) {
 			case "my-tweets":
-			 	console.log("my-tweets");
 				twitterHandler(params).then(function(response) { 
 				/* do something with the result */
 					for (var i = Object.keys(response).length-1; i >= 0; i--){
@@ -85,47 +105,58 @@ function userInputs(){
 				}).catch(function(error) {
 					console.log("Oops there was an error - tweets could not be retrieved. Please try again later.")
 				})
+				// maybe call UserInputs again and keep doing until user ends
 				break;
 			case "spotify-this-song":
-				if (answers.userInput){
-					spotifyHandler(answers.userInput).then(function(response) { 
-						// print out the results
-						if (Object.keys(response.tracks).length > 0){
-							for (var i = 0; i < Object.keys(response.tracks).length; i++){
-
-								console.log('**************************************');
-								console.log(response.tracks.items[i].album.name);
-								console.log(response.tracks.items[i].name);
-								console.log(response.tracks.items[i].artists[0].name);
-								console.log(response.tracks.items[i].preview_url);
-							}
-						} 
-					})
-				}
-				else {
-					var song = "The Sign";
-					var artist = "Ace Of Base";
+					var song = answers.userInput;
 					spotifyHandler(song).then(function(response) { 
-						for (var i = 0; i < Object.keys(response.tracks).length; i++){
-							// console.log(response.tracks.items[i].name.localeCompare("The Sign"));
-							// console.log(response.tracks.items[i].name.localeCompare("The Sign"));
-							if ((response.tracks.items[i].artists[0].name.toUpperCase() === artist.toUpperCase()) && (response.tracks.items[i].name.toUpperCase() === song.toUpperCase())){
-								console.log('**************************************');
-								console.log(response.tracks.items[i].album.name);
-								console.log(response.tracks.items[i].name);
-								console.log(response.tracks.items[i].artists[0].name);
-								console.log(response.tracks.items[i].preview_url);
+						// needs to be more DRY
+						if (Object.keys(response.tracks).length > 0){
+							if (song === "The Sign"){
+								// filter for artist =  "The Sign"
+								for (var i = 0; i < Object.keys(response.tracks).length; i++){
+									if ((response.tracks.items[i].artists[0].name.toUpperCase() === artist.toUpperCase()) && (response.tracks.items[i].name.toUpperCase() === song.toUpperCase())){
+										console.log('**************************************');
+										console.log('Album Name: ' + response.tracks.items[i].album.name);
+										console.log('Song: ' + response.tracks.items[i].name);
+										console.log('Artist: ' + response.tracks.items[i].artists[0].name);
+										console.log('Preview Link: ' + response.tracks.items[i].preview_url);
+									}
+								}
+							} else {
+								// display all results
+								for (var i = 0; i < Object.keys(response.tracks).length; i++){
+									console.log('**************************************');
+									console.log('Album Name: ' + response.tracks.items[i].album.name);
+									console.log('Song: ' + response.tracks.items[i].name);
+									console.log('Artist: ' + response.tracks.items[i].artists[0].name);
+									console.log('Preview Link: ' + response.tracks.items[i].preview_url);
+								}
 							}
-							// console.log(response);
-						}
+
+						} 
 					}).catch(function(error) {
-						console.log(error);
-						console.log("Oops there was an error - song data could not be retrieved. Please try again later.");
+						console.log("Oops there was an error - songs could not be retrieved. Please check your spelling and try again later.")
 					})
-				}
 				break;
 			case "movie-this":
 			 	console.log("movie-this");
+			 	var movie = answers.userInput;
+			 	requestHandler(movie).then(function(response) {
+			 		console.log(response);
+			 		console.log("Title: " + response.Title);
+			 		console.log("Release Year: " + response.Year);
+			 		console.log("Rating: " + response.Rated);
+			 		console.log("Country of Origin: " + response.Country);
+			 		console.log("Language: " + response.Language);
+			 		console.log("Plot Summary: " + response.Plot);
+			 		console.log("Actors: " + response.Actors);
+			 		console.log("Rating: " + response.imdbRating); // rotten tomatoes?
+			 		console.log("Link: " + response.Poster);  // rotten tomatoes?
+			 	}).catch(function(error){
+			 		console.log("Oops there was an error - movie data could not be retrieved. Please try again later.");
+
+			 	})
 				break;
 			case "do-what-it-says":
 				console.log("do-what-it-says");
