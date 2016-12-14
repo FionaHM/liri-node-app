@@ -1,0 +1,8 @@
+log created on 1481731466176
+You tweeted: Test Tweet! on Mon Dec 12 14:46:54 +0000 2016
+You tweeted: This is my second tweet! on Mon Dec 12 17:35:42 +0000 2016
+You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
+log created on 1481731470153
+You tweeted: Test Tweet! on Mon Dec 12 14:46:54 +0000 2016
+You tweeted: This is my second tweet! on Mon Dec 12 17:35:42 +0000 2016
+You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
