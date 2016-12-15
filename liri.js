@@ -1,39 +1,26 @@
 var keys = require('./keys.js');
 var fs = require('fs');
-// console.log(keys.twitterKeys.consumer_key);
-// var inputArgsArr = process.argv;
-
-var inquirer = require('inquirer');
+var continueGame = true;
 var Twitter = require('twitter');
-var spotify = require('spotify');
-
 var client = new Twitter(keys.twitterKeys);
+var logFile = 'logfile.txt';
 // last 20 tweets for my twitter account
 var params = {screen_name: 'hmfiona', count: 20};
-var logFile = 'logfile.txt'
-// create a logfile
-
+// create a logfile and log initial message to it
 var logMessage = 'log created on ' +  Date.now() + '\r\n' ;
 appendLogfileHandler(logMessage);
 
 
 function appendLogfileHandler(logMessage){
+	console.log(logMessage);
 	fs.appendFile(logFile, logMessage, function(err) {
 	    if(err) {
 	        return console.log(err);
 	    }
-    	// console.log("The file was saved!/n");
 	}); 
-
 }
 
-
 // create a promise to handle twitter call as the get API does not itself return a promise (that i could find anyway)
-
-
-
-
-
 function twitterHandler(params){
    return new Promise(function(resolve, reject) {	
 	// get path, params and callback
@@ -46,14 +33,11 @@ function twitterHandler(params){
 			}
 		})
 	})
-}
-
-				
-
+}			
 
 function spotifyHandler(song){
-   return new Promise(function(resolve, reject) {	
-	// get path, params and callback
+	var spotify = require('spotify');
+   	return new Promise(function(resolve, reject) {	
 		if (song === ""){
 			song = "The Sign";
 		}
@@ -83,7 +67,6 @@ function requestHandler(movie){
 		}
 		request('https://www.omdbapi.com/?t=' + movie + '&y=&plot=short&r=json', function (error, response, body) {
 			if ((!error && response.statusCode == 200)) {
-				// console.log(body) // Show the HTML for the Google homepage.
 				resolve(JSON.parse(body));
 			} else {
 				reject(error);
@@ -95,128 +78,112 @@ function requestHandler(movie){
 function readFileHandler(){
 	return new Promise(function(resolve, reject){
 		var fs = require("fs");
-
 		fs.readFile('random.txt', 'utf8', function (err, data) {
 		   if (!err) {
 		    	resolve(data);
 		   } else {
 		   		reject(err);
 		   }
-		 
-		   // var newDataArr = data.split(', ');
-
-		   // for (var i = 0; i < newDataArr.length; i++){
-		   // 		console.log(newDataArr[i])
-		   // }
-
-
 		});
-
 	})
 }
 
 function handleUserData(optionSelected, userInput){
+	
 	switch (optionSelected) {
-			case "my-tweets":
-				twitterHandler(params).then(function(response) { 
-				/* do something with the result */
-					console.log('************* Twitter Messages *********************');
-					for (var i = Object.keys(response).length-1; i >= 0; i--){
-						var twitterMessage = 'You tweeted: ' + response[i].text + ' on ' + response[i].created_at;
-						console.log(twitterMessage);
-						appendLogfileHandler(twitterMessage + '\r\n');
-					}
+		case "my-tweets":
+			twitterHandler(params).then(function(response) { 
+				var twitterMessage = '\r\n************* '+ optionSelected  + ' *********************\r\n';
+				appendLogfileHandler(twitterMessage);
+				for (var i = Object.keys(response).length-1; i >= 0; i--){
+					twitterMessage = 'You tweeted: ' + response[i].text + ' on ' + response[i].created_at;
+					appendLogfileHandler(twitterMessage + '\r\n');
+				}
 
-				}).catch(function(error) {
-					console.log('************* Error *********************');
-					console.log("Oops there was an error - tweets could not be retrieved. Please try again later.")
-				})
-				// maybe call UserInputs again and keep doing until user ends
-				break;
-			case "spotify-this-song":
-					var song = userInput;
-					var songHeaderString = '************* Song Information *********************';
-					console.log(songHeaderString);
-					appendLogfileHandler(songHeaderString + '\r\n');
-					spotifyHandler(song).then(function(response) { 
-						// needs to be more DRY
-						if (Object.keys(response.tracks).length > 0){
-							if (song === "The Sign"){
-								// filter for artist =  "The Sign"
-								for (var i = 0; i < Object.keys(response.tracks).length; i++){
-									if ((response.tracks.items[i].artists[0].name.toUpperCase() === artist.toUpperCase()) && (response.tracks.items[i].name.toUpperCase() === song.toUpperCase())){
-										console.log('**************************************');
-										console.log('Album Name: ' + response.tracks.items[i].album.name);
-										console.log('Song: ' + response.tracks.items[i].name);
-										console.log('Artist: ' + response.tracks.items[i].artists[0].name);
-										console.log('Preview Link: ' + response.tracks.items[i].preview_url);
-									}
-								}
-							} else {
-								// display all results
-								for (var i = 0; i < Object.keys(response.tracks).length; i++){
-									console.log('**************************************');
-									console.log('Album Name: ' + response.tracks.items[i].album.name);
-									console.log('Song: ' + response.tracks.items[i].name);
-									console.log('Artist: ' + response.tracks.items[i].artists[0].name);
-									console.log('Preview Link: ' + response.tracks.items[i].preview_url);
+			}).catch(function(error) {
+				errorHandler(optionSelected);
+			})
+			break;
+		case "spotify-this-song":
+				var song = userInput;
+				spotifyHandler(song).then(function(response) { 
+					var songMessage = '\r\n*************' + optionSelected  + '*********************';
+					appendLogfileHandler(songMessage + '\r\n');
+					// needs to be more DRY
+					if (Object.keys(response.tracks).length > 0){
+						if (song === "The Sign"){
+							// filter for artist =  "The Sign"
+							for (var i = 0; i < Object.keys(response.tracks).length; i++){
+								if ((response.tracks.items[i].artists[0].name.toUpperCase() === artist.toUpperCase()) && (response.tracks.items[i].name.toUpperCase() === song.toUpperCase())){
+									songData(i, response);
 								}
 							}
+						} else {
+							// display all results
+							for (var i = 0; i < Object.keys(response.tracks).length; i++){
+								songData(i, response);
+							}
+						}
 
-						} 
-					}).catch(function(error) {
-						console.log('************* Error *********************');
-						console.log("Oops there was an error - songs could not be retrieved. Please check your spelling and try again later.")
-					})
-				break;
-			case "movie-this":
-			 	// console.log("movie-this");
-			 	console.log('************* Movie Information *********************');
-			 	var movie = userInput;
-			 	requestHandler(movie).then(function(response) {
-			 		console.log(response);
-			 		console.log("Title: " + response.Title);
-			 		console.log("Release Year: " + response.Year);
-			 		console.log("Rating: " + response.Rated);
-			 		console.log("Country of Origin: " + response.Country);
-			 		console.log("Language: " + response.Language);
-			 		console.log("Plot Summary: " + response.Plot);
-			 		console.log("Actors: " + response.Actors);
-			 		console.log("Rating: " + response.imdbRating); // rotten tomatoes?
-			 		console.log("Link: " + response.Poster);  // rotten tomatoes?
-			 	}).catch(function(error){
-			 		console.log('************* Error *********************');
-			 		console.log("Oops there was an error - movie data could not be retrieved. Please try again later.");
-
-			 	})
-				break;
-			case "do-what-it-says":
-				console.log("do-what-it-says");
-				readFileHandler().then(function(response){
-					/// response is a string so i need to split it on /n
-					var responseLineArr = response.split(/[\n]+/);
-					// handle each line in the reponse
-					for (var i = 0; i < responseLineArr.length; i++){
-						// console.log(responseLineArr[i]);
-						var fileDataArr = responseLineArr[i].split(',');
-						// console.log(fileDataArr[0], fileDataArr[1]);
-						handleUserData(fileDataArr[0], fileDataArr[1]);
-					}
-
-				
-				}).catch(function(error){
-					console.log('************* Error *********************');
-					console.log("Oops there was an error -  data could not be retrieved. Please try again later.");
+					} 
+				}).catch(function(error) {
+					errorHandler(optionSelected);
 				})
-				break;
-			default:
-				console.log("Sorry was an error. Try again later.");
-	}
+			break;
+		case "movie-this":
+		 	var movie = userInput;
+		 	requestHandler(movie).then(function(response) {
+		 		var movieData = '\r\n************* ' + optionSelected  + ' *********************';
+		 		appendLogfileHandler(movieData);
+		 		movieData = "'\r\nTitle: " + response.Title + '\r\n' +
+		 		"Release Year: " + response.Year + '\r\n' +
+				"Rating: " + response.Rated + '\r\n' +
+		 		"Country of Origin: " + response.Country + '\r\n' +
+		 		"Language: " + response.Language + '\r\n' +
+		 		"Plot Summary: " + response.Plot + '\r\n' +
+		 		"Actors: " + response.Actors + '\r\n' +
+		 		"Rating: " + response.imdbRating + '\r\n' +
+		 		"Link: " + response.Poster + '\r\n';
+		 		appendLogfileHandler(movieData);
+		 	}).catch(function(error){
+		 		errorHandler(optionSelected);
+		 	})
+			break;
+		case "do-what-it-says":
+			readFileHandler().then(function(response){
+				/// response is a string so i need to split it on /n
+				var responseLineArr = response.split(/[\n]+/);
+				// handle each line in the reponse
+				for (var i = 0; i < responseLineArr.length; i++){
+					var fileDataArr = responseLineArr[i].split(',');		
+					handleUserData(fileDataArr[0], fileDataArr[1]);
+				}		
+			}).catch(function(error){
+				errorHandler(optionSelected);
+			})
+			break;
+		default:
+			errorHandler("not a valid function");
+		}
+}
 
+function songData(i, response){
+	songMessage = '\r\nAlbum Name: ' + response.tracks.items[i].album.name + '\r\n' +
+	'Song: ' + response.tracks.items[i].name + '\r\n' +
+	'Artist: ' + response.tracks.items[i].artists[0].name + '\r\n' +
+	'Preview Link: ' + response.tracks.items[i].preview_url + '\r\n' +
+	'\r\n**********************************************************************************************\r\n';	
+	appendLogfileHandler(songMessage);
+}
+
+function errorHandler(optionSelected){
+	errorMessage = '\r\n****************** Error: '+ optionSelected  + ' *********************\r\nOops there was an error -  likely no valid option selected. \r\n Check your input data and try again.';
+	console.log(errorMessage);
 }
 
 function userInputs(){
 	// inquirer returns a promise so i can use then and catch for return data and catch errors
+	var inquirer = require('inquirer');
 	inquirer.prompt([
 		{
 		    type: 'list',
@@ -226,7 +193,7 @@ function userInputs(){
 			  'spotify-this-song',
 			  'movie-this',
 			  'do-what-it-says']
-	    }, 
+	    },
 	    {
 	    	type: "input",
 	    	message: "Please enter a title:",
@@ -245,18 +212,35 @@ function userInputs(){
 		// return action, values;
 		var optionSelected  =  answers.predefinedOptions;
 		var userInput = answers.userInput;
-		handleUserData(optionSelected, userInput);
+		handleUserData(optionSelected, userInput);	
+	}).catch(function(e){
+		console.log(e)
+	})
+}
 
-
+function newGame(){
+	// inquirer returns a promise so i can use then and catch for return data and catch errors
+	var inquirer = require('inquirer');
+	inquirer.prompt([
+		{
+		    type: 'confirm',
+		    name: 'continueGame',
+		    message: 'Would you like to continue? (Y/n)',
+		    default: "Y"
+	    }
+	]).then(function (answers) {
+		// return action, values;
+		continueGame = answers.continueGame;
 	
 	}).catch(function(e){
 		console.log(e)
 	})
 }
 
-
 // initial call to get selection from user
 userInputs();
+
+
 
 
 
