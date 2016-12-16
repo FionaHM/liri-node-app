@@ -1,0 +1,14 @@
+
+Log file log.txt created on Friday, December 16, 2016 4:47 PM
+
+************* Action Selected: my-tweets **************************************************************
+You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
+You tweeted: Its cold in Chicago! on Fri Dec 16 21:33:20 +0000 2016
+You tweeted: Ok i need 7 more tweets from my application on Fri Dec 16 21:39:21 +0000 2016
+You tweeted: 6..... on Fri Dec 16 21:39:29 +0000 2016
+You tweeted: 5....... on Fri Dec 16 21:39:34 +0000 2016
+You tweeted: 4...... on Fri Dec 16 21:39:39 +0000 2016
+You tweeted: 3...... on Fri Dec 16 21:39:45 +0000 2016
+You tweeted: 2...... on Fri Dec 16 21:39:50 +0000 2016
+You tweeted: 1.....yay! Made it! on Fri Dec 16 21:39:58 +0000 2016
+You tweeted: And a bonus tweet! on Fri Dec 16 21:40:25 +0000 2016

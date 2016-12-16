@@ -1,3 +1,6 @@
-movies-this,"Grinch"
+movie-this,"Grinch"
 spotify-this-song,"White Christmas"
 my-tweets
+movie-this,"Santa Claus"
+movie-this,"It's a Wonderful Life"
+spotify-this-song,"Silent Night"

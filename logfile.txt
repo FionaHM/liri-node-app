@@ -1,10 +1,5 @@
-log created on 1481826376012
 
-************* my-tweets *********************
-You tweeted: Test Tweet! on Mon Dec 12 14:46:54 +0000 2016
-You tweeted: This is my second tweet! on Mon Dec 12 17:35:42 +0000 2016
-You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
-log created on 1481826392027
+log created on 1481921682018
 
 *************spotify-this-song*********************
 
@@ -15,222 +10,28 @@ Preview Link: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e1873
 
 **********************************************************************************************
 
-Album Name: Greatest Hits
-Song: The Sign
-Artist: Ace of Base
-Preview Link: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=null
+log created on 1481921687854
 
-**********************************************************************************************
+************* movie-this *********************
+Title: Mr. Nobody
+Release Year: 2009
+Rating: R
+Country of Origin: Belgium, Germany, Canada, France
+Language: English, Mohawk
+Plot Summary: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rating: 7.9
+Link: https://images-na.ssl-images-amazon.com/images/M/MV5BMTg4ODkzMDQ3Nl5BMl5BanBnXkFtZTgwNTEwMTkxMDE@._V1_SX300.jpg
 
-Album Name: The Sign (US Album) [Remastered]
-Song: Don't Turn Around
-Artist: Ace of Base
-Preview Link: https://p.scdn.co/mp3-preview/b025e2e01a54f74ac763031ea6e823b431b1bf94?cid=null
+log created on 1481921693305
 
-**********************************************************************************************
-
-Album Name: Danger
-Song: Follow the Sign
-Artist: Peter Wyper
-Preview Link: https://p.scdn.co/mp3-preview/34ba67334278707722f4a36863efa54c5441074b?cid=null
-
-**********************************************************************************************
-
-Album Name: Pitch Perfect Soundtrack
-Song: Bellas Regionals: The Sign/Eternal Flame/Turn The Beat Around
-Artist: The Barden Bellas
-Preview Link: https://p.scdn.co/mp3-preview/755c42adce0ac49733a74301eaa92c4a698cac43?cid=null
-
-**********************************************************************************************
-
-Album Name: I See The Sign
-Song: Way Go Lily
-Artist: Sam Amidon
-Preview Link: https://p.scdn.co/mp3-preview/55292975ba89ea1ccd8ffbcbad19bc6875ba49de?cid=null
-
-**********************************************************************************************
-
-Album Name: I Saw the Sign
-Song: I Saw the Sign
-Artist: Swedish Hit Makers
-Preview Link: https://p.scdn.co/mp3-preview/67436272f57ef2aeb7f82dcfc3347a550d459b67?cid=null
-
-**********************************************************************************************
-log created on 1481826399317
-
-*************spotify-this-song*********************
-
-Album Name: Christmas (Deluxe Special Edition)
-Song: Santa Claus Is Coming To Town
-Artist: Michael Bublé
-Preview Link: https://p.scdn.co/mp3-preview/bd010602753203f389e32bd1c7bec2a88c020aa8?cid=null
-
-**********************************************************************************************
-
-Album Name: That's Christmas To Me (Deluxe Edition)
-Song: Santa Claus is Coming to Town
-Artist: Pentatonix
-Preview Link: https://p.scdn.co/mp3-preview/6d7453e359b75f504f7a0e56ca87a8d73914e54e?cid=null
-
-**********************************************************************************************
-
-Album Name: Christmas
-Song: Santa Claus Is Coming To Town
-Artist: Michael Bublé
-Preview Link: https://p.scdn.co/mp3-preview/bd010602753203f389e32bd1c7bec2a88c020aa8?cid=null
-
-**********************************************************************************************
-
-Album Name: Santa Claus Is Coming To Town
-Song: Santa Claus Is Coming To Town
-Artist: Leyton Lake
-Preview Link: https://p.scdn.co/mp3-preview/3b21d0d329feb615ddc115e119af388d276ba526?cid=null
-
-**********************************************************************************************
-
-Album Name: Elvis' Christmas Album
-Song: Here Comes Santa Claus (Right Down Santa Claus Lane)
-Artist: Elvis Presley
-Preview Link: https://p.scdn.co/mp3-preview/6a21a6141687ff9b2f0bede600ff1f6c85bcd8d1?cid=null
-
-**********************************************************************************************
-
-Album Name: A Merry Christmas With Bing Crosby & The Andrews Sisters (Remastered)
-Song: Here Comes Santa Claus (Right Down Santa Claus Lane) - Single Version
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/369b71f8e8da7c9241b7b90bc949a2326f8152bb?cid=null
-
-**********************************************************************************************
-
-Album Name: Ultimate Christmas Collection
-Song: I Saw Mommy Kissing Santa Claus
-Artist: The Jackson 5
-Preview Link: https://p.scdn.co/mp3-preview/057f5c1e6ad8e6f71f9c0f1a2aa9d60e3e9ae47e?cid=null
-
-**********************************************************************************************
-log created on 1481826409155
-
-************* movie-this *********************'
-Title: Santa Claus
-Release Year: 1985
-Rating: PG
-Country of Origin: UK, USA
-Language: English
-Plot Summary: A peasant woodcutter becomes Santa Claus and later foils an evil toy manufacturer's scheme to take over Christmas.
-Actors: Dudley Moore, John Lithgow, David Huddleston, Burgess Meredith
-Rating: 6.0
-Link: https://images-na.ssl-images-amazon.com/images/M/MV5BMTc1ODEyMTc5Ml5BMl5BanBnXkFtZTcwODkzMTIzMQ@@._V1_SX300.jpg
-log created on 1481826443616
-
-*************spotify-this-song*********************
-
-************* my-tweets *********************
-You tweeted: Test Tweet! on Mon Dec 12 14:46:54 +0000 2016
-You tweeted: This is my second tweet! on Mon Dec 12 17:35:42 +0000 2016
-You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
-
-Album Name: White Christmas
-Song: White Christmas
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/85085255c9c37a8fc03214b9d3027cd5f730f6b4?cid=null
-
-**********************************************************************************************
-
-Album Name: A Pentatonix Christmas
-Song: White Christmas
-Artist: Pentatonix
-Preview Link: https://p.scdn.co/mp3-preview/8c953cd58db3829181e2dd166e82536c6f8a8ec3?cid=null
-
-**********************************************************************************************
-
-Album Name: Christmas
-Song: White Christmas (Duet With Shania Twain)
-Artist: Michael Bublé
-Preview Link: https://p.scdn.co/mp3-preview/ec0c716e7c24d4da42f8487d4ff43b9c2d8dea91?cid=null
-
-**********************************************************************************************
-
-Album Name: Christmas Music 100 Hits
-Song: White Christmas
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/0d7af21bf0241941ed883d6eb44c9ae48ead0c92?cid=null
-
-**********************************************************************************************
-
-Album Name: White Christmas
-Song: God Rest Ye Merry Gentlemen
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/286c7d94bf57661d973e0b07943c46635187822e?cid=null
-
-**********************************************************************************************
-
-Album Name: Christmas (Deluxe Special Edition)
-Song: White Christmas (Duet With Shania Twain)
-Artist: Michael Bublé
-Preview Link: https://p.scdn.co/mp3-preview/ec0c716e7c24d4da42f8487d4ff43b9c2d8dea91?cid=null
-
-**********************************************************************************************
-
-Album Name: White Christmas
-Song: It's Beginning To Look Like Christmas
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/e1c77c491f4f01a7dd7c044a92a6c40f94f012c8?cid=null
-
-**********************************************************************************************
-log created on 1481826536209
-
-************* my-tweets *********************
-You tweeted: Test Tweet! on Mon Dec 12 14:46:54 +0000 2016
-You tweeted: This is my second tweet! on Mon Dec 12 17:35:42 +0000 2016
-You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
-
-*************spotify-this-song*********************
-
-Album Name: White Christmas
-Song: White Christmas
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/85085255c9c37a8fc03214b9d3027cd5f730f6b4?cid=null
-
-**********************************************************************************************
-
-Album Name: A Pentatonix Christmas
-Song: White Christmas
-Artist: Pentatonix
-Preview Link: https://p.scdn.co/mp3-preview/8c953cd58db3829181e2dd166e82536c6f8a8ec3?cid=null
-
-**********************************************************************************************
-
-Album Name: Christmas
-Song: White Christmas (Duet With Shania Twain)
-Artist: Michael Bublé
-Preview Link: https://p.scdn.co/mp3-preview/ec0c716e7c24d4da42f8487d4ff43b9c2d8dea91?cid=null
-
-**********************************************************************************************
-
-Album Name: Christmas Music 100 Hits
-Song: White Christmas
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/0d7af21bf0241941ed883d6eb44c9ae48ead0c92?cid=null
-
-**********************************************************************************************
-
-Album Name: White Christmas
-Song: God Rest Ye Merry Gentlemen
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/286c7d94bf57661d973e0b07943c46635187822e?cid=null
-
-**********************************************************************************************
-
-Album Name: Christmas (Deluxe Special Edition)
-Song: White Christmas (Duet With Shania Twain)
-Artist: Michael Bublé
-Preview Link: https://p.scdn.co/mp3-preview/ec0c716e7c24d4da42f8487d4ff43b9c2d8dea91?cid=null
-
-**********************************************************************************************
-
-Album Name: White Christmas
-Song: It's Beginning To Look Like Christmas
-Artist: Bing Crosby
-Preview Link: https://p.scdn.co/mp3-preview/e1c77c491f4f01a7dd7c044a92a6c40f94f012c8?cid=null
-
-**********************************************************************************************
+************* movie-this *********************
+Title: Jingle
+Release Year: 2002
+Rating: N/A
+Country of Origin: Canada
+Language: N/A
+Plot Summary: N/A
+Actors: Pierre Gendron, Jean-Nicolas Verreault
+Rating: 3.0
+Link: N/A
