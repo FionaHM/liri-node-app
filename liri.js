@@ -1,7 +1,6 @@
 var keys = require('./keys.js');
 var fs = require('fs');
-var moment = require('moment')
-var count = 1;
+var moment = require('moment');
 var continueGame = true;
 var Twitter = require('twitter');
 var client = new Twitter(keys.twitterKeys);
@@ -200,7 +199,6 @@ function handleUserData(optionSelected, userInput){
 }
 // users npm inquirer to take userinput from the console
 function userInputs(){
-	count++;
 	// inquirer returns a promise so i can use both then and catch for return data and catch errors
 	var inquirer = require('inquirer');
 	inquirer.prompt([
