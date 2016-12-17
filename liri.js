@@ -119,7 +119,7 @@ function handleUserData(optionSelected, userInput){
 				var twitterMessage = 	'\r\n************* Action Selected: '+ optionSelected  + ' **************************************************************\r\n';
 				appendLogfileHandler(twitterMessage);
 				for (var i = Object.keys(response).length-1; i >= 0; i--){
-					twitterMessage = 'You tweeted: ' + response[i].text + ' on ' + response[i].created_at;
+					twitterMessage = '@hmfiona: ' + response[i].text + ' on ' + response[i].created_at;
 					appendLogfileHandler(twitterMessage + '\r\n');
 				}
 

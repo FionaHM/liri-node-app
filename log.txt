@@ -12,3 +12,252 @@ You tweeted: 3...... on Fri Dec 16 21:39:45 +0000 2016
 You tweeted: 2...... on Fri Dec 16 21:39:50 +0000 2016
 You tweeted: 1.....yay! Made it! on Fri Dec 16 21:39:58 +0000 2016
 You tweeted: And a bonus tweet! on Fri Dec 16 21:40:25 +0000 2016
+
+Log file log.txt created on Friday, December 16, 2016 7:11 PM
+
+************* Action Selected: my-tweets **************************************************************
+You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
+You tweeted: Its cold in Chicago! on Fri Dec 16 21:33:20 +0000 2016
+You tweeted: Ok i need 7 more tweets from my application on Fri Dec 16 21:39:21 +0000 2016
+You tweeted: 6..... on Fri Dec 16 21:39:29 +0000 2016
+You tweeted: 5....... on Fri Dec 16 21:39:34 +0000 2016
+You tweeted: 4...... on Fri Dec 16 21:39:39 +0000 2016
+You tweeted: 3...... on Fri Dec 16 21:39:45 +0000 2016
+You tweeted: 2...... on Fri Dec 16 21:39:50 +0000 2016
+You tweeted: 1.....yay! Made it! on Fri Dec 16 21:39:58 +0000 2016
+You tweeted: And a bonus tweet! on Fri Dec 16 21:40:25 +0000 2016
+
+Log file log.txt created on Friday, December 16, 2016 7:11 PM
+
+************* Action Selected: my-tweets **************************************************************
+You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
+You tweeted: Its cold in Chicago! on Fri Dec 16 21:33:20 +0000 2016
+You tweeted: Ok i need 7 more tweets from my application on Fri Dec 16 21:39:21 +0000 2016
+You tweeted: 6..... on Fri Dec 16 21:39:29 +0000 2016
+You tweeted: 5....... on Fri Dec 16 21:39:34 +0000 2016
+You tweeted: 4...... on Fri Dec 16 21:39:39 +0000 2016
+You tweeted: 3...... on Fri Dec 16 21:39:45 +0000 2016
+You tweeted: 2...... on Fri Dec 16 21:39:50 +0000 2016
+You tweeted: 1.....yay! Made it! on Fri Dec 16 21:39:58 +0000 2016
+You tweeted: And a bonus tweet! on Fri Dec 16 21:40:25 +0000 2016
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: The Sign (US Album) [Remastered]
+Song: The Sign
+Artist: Ace of Base
+Preview Link: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null
+
+Log file log.txt created on Friday, December 16, 2016 7:11 PM
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: The Sign (US Album) [Remastered]
+Song: The Sign
+Artist: Ace of Base
+Preview Link: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: Oceans Away
+Song: Oceans Away
+Artist: A R I Z O N A
+Preview Link: https://p.scdn.co/mp3-preview/cf347265b0ffeb90ab8890cbbf1d88daea20f5a2?cid=null
+
+Log file log.txt created on Friday, December 16, 2016 7:12 PM
+
+************* Action Selected: my-tweets **************************************************************
+You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
+You tweeted: Its cold in Chicago! on Fri Dec 16 21:33:20 +0000 2016
+You tweeted: Ok i need 7 more tweets from my application on Fri Dec 16 21:39:21 +0000 2016
+You tweeted: 6..... on Fri Dec 16 21:39:29 +0000 2016
+You tweeted: 5....... on Fri Dec 16 21:39:34 +0000 2016
+You tweeted: 4...... on Fri Dec 16 21:39:39 +0000 2016
+You tweeted: 3...... on Fri Dec 16 21:39:45 +0000 2016
+You tweeted: 2...... on Fri Dec 16 21:39:50 +0000 2016
+You tweeted: 1.....yay! Made it! on Fri Dec 16 21:39:58 +0000 2016
+You tweeted: And a bonus tweet! on Fri Dec 16 21:40:25 +0000 2016
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: Encore
+Song: Middle
+Artist: DJ Snake
+Preview Link: https://p.scdn.co/mp3-preview/106613636f0623f95aa29744c14c47a09c7c0877?cid=null
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: Encore
+Song: Middle
+Artist: DJ Snake
+Preview Link: https://p.scdn.co/mp3-preview/106613636f0623f95aa29744c14c47a09c7c0877?cid=null
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: Encore
+Song: Middle
+Artist: DJ Snake
+Preview Link: https://p.scdn.co/mp3-preview/106613636f0623f95aa29744c14c47a09c7c0877?cid=null
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: Cozy Tapes: Vol. 1 Friends -
+Song: Crazy Brazy
+Artist: A$AP Mob
+Preview Link: https://p.scdn.co/mp3-preview/710139ab8b3146bdc5ff283eef09986d865f2b7a?cid=null
+
+Album Name: This Is Not A Test
+Song: Love Broke Thru
+Artist: tobyMac
+Preview Link: https://p.scdn.co/mp3-preview/dbf448e4e3b1e1906821e557cef2a0268b98f792?cid=null
+
+************* Action Selected: spotify-this-song *******************************************************
+
+************* Action Selected: movie-this *******************************************************
+Title: The Goonies
+Release Year: 1985
+Rating: PG
+Country of Origin: USA
+Language: English, Spanish, Cantonese, Italian
+Plot Summary: In order to save their home from foreclosure, a group of misfits set out to find a pirate's ancient valuable treasure.
+Actors: Sean Astin, Josh Brolin, Jeff Cohen, Corey Feldman
+Rating: 7.8
+Link: https://images-na.ssl-images-amazon.com/images/M/MV5BODRlMjRkZGEtZWM2Zi00ZjYxLWE0MWUtMmM1YWM2NzZlOTE1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+
+************************** Action Selected: do-what-it-says *************************************
+
+************* Action Selected: movie-this *******************************************************
+Title: It's a Wonderful Life
+Release Year: 1946
+Rating: PG
+Country of Origin: USA
+Language: English
+Plot Summary: An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.
+Actors: James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell
+Rating: 8.6
+Link: https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX300.jpg
+
+************* Action Selected: movie-this *******************************************************
+Title: How the Grinch Stole Christmas
+Release Year: 2000
+Rating: PG
+Country of Origin: USA, Germany
+Language: English
+Plot Summary: On the outskirts of Whoville, there lives a green, revenge-seeking Grinch who plans on ruining the Christmas holiday for all of the citizens of the town.
+Actors: Jim Carrey, Taylor Momsen, Kelley, Jeffrey Tambor
+Rating: 6.0
+Link: https://images-na.ssl-images-amazon.com/images/M/MV5BNDBhNzdlODctM2JhYi00NDg4LWEzY2EtZDk2NzRmMjEwMzJmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+
+************* Action Selected: movie-this *******************************************************
+Title: Santa Claus
+Release Year: 1985
+Rating: PG
+Country of Origin: UK, USA
+Language: English
+Plot Summary: A peasant woodcutter becomes Santa Claus and later foils an evil toy manufacturer's scheme to take over Christmas.
+Actors: Dudley Moore, John Lithgow, David Huddleston, Burgess Meredith
+Rating: 6.0
+Link: https://images-na.ssl-images-amazon.com/images/M/MV5BMTc1ODEyMTc5Ml5BMl5BanBnXkFtZTcwODkzMTIzMQ@@._V1_SX300.jpg
+
+************* Action Selected: my-tweets **************************************************************
+You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
+You tweeted: Its cold in Chicago! on Fri Dec 16 21:33:20 +0000 2016
+You tweeted: Ok i need 7 more tweets from my application on Fri Dec 16 21:39:21 +0000 2016
+You tweeted: 6..... on Fri Dec 16 21:39:29 +0000 2016
+You tweeted: 5....... on Fri Dec 16 21:39:34 +0000 2016
+You tweeted: 4...... on Fri Dec 16 21:39:39 +0000 2016
+You tweeted: 3...... on Fri Dec 16 21:39:45 +0000 2016
+You tweeted: 2...... on Fri Dec 16 21:39:50 +0000 2016
+You tweeted: 1.....yay! Made it! on Fri Dec 16 21:39:58 +0000 2016
+You tweeted: And a bonus tweet! on Fri Dec 16 21:40:25 +0000 2016
+
+Album Name: Christmas Portrait (Special Edition)
+Song: Silent Night
+Artist: Carpenters
+Preview Link: https://p.scdn.co/mp3-preview/49011b919f28d42e7d1c579933565b42896f834f?cid=null
+
+************* Action Selected: spotify-this-song *******************************************************
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: White Christmas
+Song: White Christmas
+Artist: Bing Crosby
+Preview Link: https://p.scdn.co/mp3-preview/85085255c9c37a8fc03214b9d3027cd5f730f6b4?cid=null
+
+Log file log.txt created on Friday, December 16, 2016 7:14 PM
+
+************************** Action Selected: do-what-it-says *************************************
+
+************* Action Selected: movie-this *******************************************************
+Title: How the Grinch Stole Christmas
+Release Year: 2000
+Rating: PG
+Country of Origin: USA, Germany
+Language: English
+Plot Summary: On the outskirts of Whoville, there lives a green, revenge-seeking Grinch who plans on ruining the Christmas holiday for all of the citizens of the town.
+Actors: Jim Carrey, Taylor Momsen, Kelley, Jeffrey Tambor
+Rating: 6.0
+Link: https://images-na.ssl-images-amazon.com/images/M/MV5BNDBhNzdlODctM2JhYi00NDg4LWEzY2EtZDk2NzRmMjEwMzJmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+
+************* Action Selected: my-tweets **************************************************************
+You tweeted: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
+You tweeted: Its cold in Chicago! on Fri Dec 16 21:33:20 +0000 2016
+You tweeted: Ok i need 7 more tweets from my application on Fri Dec 16 21:39:21 +0000 2016
+You tweeted: 6..... on Fri Dec 16 21:39:29 +0000 2016
+You tweeted: 5....... on Fri Dec 16 21:39:34 +0000 2016
+You tweeted: 4...... on Fri Dec 16 21:39:39 +0000 2016
+You tweeted: 3...... on Fri Dec 16 21:39:45 +0000 2016
+You tweeted: 2...... on Fri Dec 16 21:39:50 +0000 2016
+You tweeted: 1.....yay! Made it! on Fri Dec 16 21:39:58 +0000 2016
+You tweeted: And a bonus tweet! on Fri Dec 16 21:40:25 +0000 2016
+
+************* Action Selected: movie-this *******************************************************
+Title: It's a Wonderful Life
+Release Year: 1946
+Rating: PG
+Country of Origin: USA
+Language: English
+Plot Summary: An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.
+Actors: James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell
+Rating: 8.6
+Link: https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX300.jpg
+
+************* Action Selected: movie-this *******************************************************
+Title: Santa Claus
+Release Year: 1985
+Rating: PG
+Country of Origin: UK, USA
+Language: English
+Plot Summary: A peasant woodcutter becomes Santa Claus and later foils an evil toy manufacturer's scheme to take over Christmas.
+Actors: Dudley Moore, John Lithgow, David Huddleston, Burgess Meredith
+Rating: 6.0
+Link: https://images-na.ssl-images-amazon.com/images/M/MV5BMTc1ODEyMTc5Ml5BMl5BanBnXkFtZTcwODkzMTIzMQ@@._V1_SX300.jpg
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: Christmas Portrait (Special Edition)
+Song: Silent Night
+Artist: Carpenters
+Preview Link: https://p.scdn.co/mp3-preview/49011b919f28d42e7d1c579933565b42896f834f?cid=null
+
+************* Action Selected: spotify-this-song *******************************************************
+
+Album Name: White Christmas
+Song: White Christmas
+Artist: Bing Crosby
+Preview Link: https://p.scdn.co/mp3-preview/85085255c9c37a8fc03214b9d3027cd5f730f6b4?cid=null
+
+Log file log.txt created on Friday, December 16, 2016 7:16 PM
+
+************* Action Selected: my-tweets **************************************************************
+@hmfiona: Trying a third ;) on Mon Dec 12 17:35:53 +0000 2016
+@hmfiona: Its cold in Chicago! on Fri Dec 16 21:33:20 +0000 2016
+@hmfiona: Ok i need 7 more tweets from my application on Fri Dec 16 21:39:21 +0000 2016
+@hmfiona: 6..... on Fri Dec 16 21:39:29 +0000 2016
+@hmfiona: 5....... on Fri Dec 16 21:39:34 +0000 2016
+@hmfiona: 4...... on Fri Dec 16 21:39:39 +0000 2016
+@hmfiona: 3...... on Fri Dec 16 21:39:45 +0000 2016
+@hmfiona: 2...... on Fri Dec 16 21:39:50 +0000 2016
+@hmfiona: 1.....yay! Made it! on Fri Dec 16 21:39:58 +0000 2016
+@hmfiona: And a bonus tweet! on Fri Dec 16 21:40:25 +0000 2016
